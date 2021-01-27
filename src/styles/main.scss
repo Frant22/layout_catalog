@@ -13,10 +13,8 @@ html {
 }
 
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  max-width: 944px;
-  height: 856px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: center;
+  gap: 50px 48px;
 }

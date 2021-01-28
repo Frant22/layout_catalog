@@ -20,7 +20,7 @@
 
     border: 3px solid transparent;
 
-    transition: 1s;
+    transition: transform 1s;
 
     &:hover {
       transform: scale(1.2) translate(0, -1px);
@@ -102,7 +102,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    transition: 1s;
+    transition: background-color 1s;
 
     &:hover {
       background-color: white;

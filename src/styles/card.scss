@@ -20,7 +20,7 @@
 
     border: 3px solid transparent;
 
-    transition: 1s;
+    transition: transform 1s;
 
     &:hover {
       transform: scale(1.2) translate(0, -1px);
@@ -30,7 +30,7 @@
   }
 
   &__text {
-    font-weight: 500;
+    font-weight: $fw-semibold;
     font-size: 12px;
     line-height: 15px;
 
@@ -39,7 +39,7 @@
   }
 
   &__code {
-    font-weight: 400;
+    font-weight: $fw-normal;
     font-size: 11px;
     line-height: 13px;
   }
@@ -58,7 +58,7 @@
   }
 
   &__comments {
-    font-weight: 400;
+    font-weight: $fw-normal;
     font-size: 11px;
     line-height: 13px;
     text-align: right;
@@ -71,13 +71,13 @@
   }
 
   &__cost {
-    font-weight: 400;
+    font-weight: $fw-normal;
     font-size: 11px;
     line-height: 13px;
   }
 
   &__price {
-    font-weight: 700;
+    font-weight: $fw-bold;
     font-size: 16px;
     line-height: 19px;
   }
@@ -94,7 +94,7 @@
     background-color: $color-blue;
 
     font-size: 14px;
-    font-weight: 700;
+    font-weight: $fw-bold;
     line-height: 40px;
     text-align: center;
     justify-content: center;
@@ -102,7 +102,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    transition: 1s;
+    transition: background-color 1s;
 
     &:hover {
       background-color: white;
